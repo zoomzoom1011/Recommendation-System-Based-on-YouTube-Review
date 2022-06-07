@@ -14,3 +14,11 @@ To do this：
 This is the workflow, I have a training dataset, then I clean data, do comment embedding, build classifiers for pet owners, and evaluate the classifier performance;  then extract important topics from pet owners
 
 Then, I deploy the pipeline to deal with the incoming datasets and output the owner list automatically for promotion matching. 
+
+The offline training data set has 5820036 rows and about 616MB.
+
+How to use: 
+
+1. Run youtube_cat_dog_v3.ipynb for offline training.
+2. Run scrape_youtube_comment_v2.ipynb to extract new reviews in youtube.
+3. Run youtube_cat_dog_pipeline_v3.ipynb to extract dog and cat onwers from new reviews.  
