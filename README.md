@@ -22,3 +22,5 @@ How to use:
 1. Run youtube_cat_dog_v3.ipynb for offline training.
 2. Run scrape_youtube_comment_v2.ipynb to extract new reviews in youtube.
 3. Run youtube_cat_dog_pipeline_v3.ipynb to extract dog and cat onwers from new reviews.  
+
+In the end, the user list will be saved in the datacsv folder.
